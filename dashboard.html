@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Rekomendasi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .custom-navbar {
+            background-color: #0f0f0f;
+        }
+        .custom-navbar .nav-link {
+            color: white;
+            background-color: #ce44e4;
+            transition: background-color 0.3s ease;
+        }
+        .custom-navbar .nav-link:hover {
+            background-color: #a334ba;
+        }
+        .custom-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Web Rekomendasi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+    <h1 class="text-center" style="font-family: 'Pacifico', cursive; font-size: 3em; color: #333;">Berita Terkini</h1>
+    
+    <!-- Berita 1 -->
+    <div class="row mb-4">
+        <div class="col-md-2">
+            <img src="gambar kota.jpg" class="img-fluid" alt="Jakarta Kota Terpadat">
+        </div>
+        <div class="col-md-10">
+            <h3>Jakarta Kota Terpadat</h3>
+            <p>Jakarta, ibu kota Indonesia, bukan sekadar kota biasa. Ini adalah jantung negara, pusat dari segala aktivitas yang mendefinisikan perkembangan Indonesia...</p>
+            <a href="beritadetil1.html" class="btn btn-primary">Selengkapnya</a>
+        </div>
+    </div>
+    
+    <!-- Berita 2 -->
+    <div class="row mb-4">
+        <div class="col-md-2">
+            <img src="sims.png" class="img-fluid" alt="The Sims">
+        </div>
+        <div class="col-md-10">
+            <h3>"The Sims" game simulasi kehidupan</h3>
+            <p>"The Sims" adalah game simulasi kehidupan yang telah merevolusi cara kita bermain game...</p>
+            <a href="beritadetil2.html" class="btn btn-primary">Selengkapnya</a>
+        </div>
+    </div>
+    
+    <!-- Berita 3 -->
+    <div class="row mb-4">
+        <div class="col-md-2">
+            <img src="ip.jpg" class="img-fluid" alt="iPhone 16">
+        </div>
+        <div class="col-md-10">
+            <h3>iPhone 16: Menghadirkan Era Baru dalam Teknologi Mobile</h3>
+            <p>Apple kembali mengukuhkan posisinya sebagai pemimpin inovasi teknologi dengan peluncuran iPhone 16...</p>
+            <a href="beritadetil3.html" class="btn btn-primary">Selengkapnya</a>
+        </div>
+    </div>
+</div>
+
+<!-- About Us Section -->
+<div class="container mt-4" id="about-us">
+    <h2 class="text-center">About Us</h2>
+    <p class="text-center">
+        Website ini dibuat sebagai platform untuk memberikan rekomendasi berita, artikel, dan informasi terbaru seputar teknologi, game, dan kehidupan perkotaan. 
+        Kami berkomitmen untuk menyajikan konten-konten yang menarik dan bermanfaat bagi para pembaca. Dikembangkan oleh saya yang memiliki minat dan pengalaman dalam 
+        dunia teknologi, informasi, dan media digital.
+    </p>
+</div>
+
+<!-- Kontak Section -->
+<div class="container mt-4" id="kontak">
+    <h2 class="text-center">Kontak Pembuat Website</h2>
+    <p class="text-center">
+        Jika Anda memiliki pertanyaan atau ingin memberikan masukan, silakan hubungi kami melalui:
+    </p>
+    <ul class="list-group">
+        <li class="list-group-item"><strong>Nama:</strong> Anggi Saputri</li>
+        <li class="list-group-item"><strong>Email:</strong> anggisaputri2222@gmail.com</li>
+        <li class="list-group-item"><strong>No. Telepon:</strong> +62 811 1111 1111</li>
+    </ul>
+</div>
+
+<!-- Footer Section -->
+<div class="custom-container mt-4">
+  <h1>Web Rekomendasi</h1>
+
+  <ul class="list-inline">
+      <li class="list-inline-item"><a href="https://www.google.com" target="_blank" class="btn btn-outline-primary">Google</a></li>
+      <li class="list-inline-item"><a href="https://upj.ac.id/" target="_blank" class="btn btn-outline-primary">UPJ</a></li>
+  </ul>
+
+  <footer>
+      &copy; 2024 Anggi Saputri_2022071042 Website. All rights reserved.
+  </footer>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
